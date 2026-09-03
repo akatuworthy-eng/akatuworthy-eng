@@ -46,13 +46,22 @@ turn speech into knowledge, and apps that make technology accessible.
 
 ---
 
-## 🗂️ From my repos
+## 🗂️ Selected projects
 
-- **Ask an Elder** — consented archive of living oral knowledge (FastAPI · React · Postgres)
-- **base_ai_agent** — a starting point for building capable AI agents
-- **SmartReply** — intelligent, context-aware reply generation
-- **ai-interview-coach** — practice interviews with an AI coach
-- **ai-travel-companion** — plan and navigate travel with AI help
+- **Ask an Elder · Idoma Living Knowledge Engine** — consented archive of living oral
+  knowledge: audio capture, Whisper transcription, entity extraction, graph retrieval
+  (FastAPI · React · PostgreSQL)
+- **AI Interview Coach** — practice interviews, get scored by an AI coach (FastAPI · React)
+- **SmartReply** — customer-support assistant: intent-aware replies with optional AI mode
+- **SmartBudgetTracker** — personal budgeting with monthly summaries (FastAPI · SQLite)
+- **AI Customer Service Chatbot** — intent-aware support bot
+- **techmate** — AI-powered tech services & troubleshooting
+- **AI Resume Generator** — improve resumes with rules or AI
+- **AI Travel Companion** — day-by-day itinerary planning
+- **AI Agent Scaffold** — a minimal LangChain starter (`base_ai_agent`)
+
+> All AI features gracefully fall back to deterministic logic when no API key is set —
+> every app above runs and is tested without one.
 
 ---
 
