@@ -1,33 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="t d">
-<title id="t">Akatuworthy — AI engineer in the cybernetic frontier</title><desc id="d">A dark cyberpunk profile banner with cyan and magenta neon, a luminous orbital network, and digital grid.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="t d">
+<title id="t">AKATUWORTHY — systems for the human side of the future</title>
+<desc id="d">A high-detail cyberpunk dashboard with a midnight city skyline, luminous network lines, glass interface panels, and cyan and hot pink light.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset=".55" stop-color="#0c1020"/><stop offset="1" stop-color="#140920"/></linearGradient>
- <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5ff"/><stop offset=".52" stop-color="#9b5cff"/><stop offset="1" stop-color="#ff3ea5"/></linearGradient>
- <radialGradient id="core"><stop stop-color="#ff3ea5" stop-opacity=".9"/><stop offset=".35" stop-color="#873cff" stop-opacity=".65"/><stop offset="1" stop-color="#00f5ff" stop-opacity=".05"/></radialGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0v32" fill="none" stroke="#1b5970" stroke-opacity=".32" stroke-width="1"/></pattern>
- <pattern id="scan" width="3" height="5" patternUnits="userSpaceOnUse"><path d="M0 4h3" stroke="#fff" stroke-opacity=".035"/></pattern>
+ <linearGradient id="night" x2="0" y2="1"><stop stop-color="#090b18"/><stop offset=".56" stop-color="#11142b"/><stop offset="1" stop-color="#07151f"/></linearGradient>
+ <linearGradient id="horizon" x1="0" x2="1"><stop stop-color="#ff3ea5" stop-opacity="0"/><stop offset=".5" stop-color="#ff3ea5" stop-opacity=".85"/><stop offset="1" stop-color="#00f5ff" stop-opacity="0"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#00f5ff"/><stop offset=".5" stop-color="#7258ff"/><stop offset="1" stop-color="#ff3ea5"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#ff3ea5" stop-opacity=".88"/><stop offset=".45" stop-color="#b42cff" stop-opacity=".28"/><stop offset="1" stop-color="#b42cff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0v36" fill="none" stroke="#46d9ff" stroke-opacity=".12"/></pattern>
+ <pattern id="windows" width="22" height="26" patternUnits="userSpaceOnUse"><rect x="3" y="4" width="8" height="10" rx="1" fill="#00eaff" opacity=".65"/><rect x="15" y="4" width="4" height="10" rx="1" fill="#fd43c1" opacity=".42"/></pattern>
+ <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="clip"><rect width="1280" height="460" rx="22"/></clipPath>
 </defs>
-<rect width="1280" height="430" rx="22" fill="url(#bg)"/><rect width="1280" height="430" rx="22" fill="url(#grid)"/><rect width="1280" height="430" rx="22" fill="url(#scan)"/>
-<path d="M0 20h610M670 20h610M0 410h495M785 410h495" stroke="#00f5ff" stroke-opacity=".55"/>
-<path d="M0 24h190m10 0h9m-209 380h125m110 0h30" stroke="#ff3ea5" stroke-width="2"/>
-<circle cx="1018" cy="211" r="166" fill="url(#core)" opacity=".72"/>
-<g fill="none" stroke="url(#neon)">
- <circle cx="1018" cy="211" r="118" stroke-width="1.5" stroke-opacity=".7"/>
- <circle cx="1018" cy="211" r="83" stroke-width="2" stroke-opacity=".55" stroke-dasharray="6 8"/>
- <ellipse cx="1018" cy="211" rx="203" ry="70" transform="rotate(-31 1018 211)" stroke-width="2" stroke-opacity=".65"/>
- <ellipse cx="1018" cy="211" rx="204" ry="70" transform="rotate(48 1018 211)" stroke-width="1.4" stroke-opacity=".55"/>
- <path d="M817 345l70-70h57m74-125 70-70h118M1091 279h112l77-77" stroke-width="2"/>
+<g clip-path="url(#clip)">
+<rect width="1280" height="460" fill="url(#night)"/><rect width="1280" height="460" fill="url(#grid)"/>
+<circle cx="1010" cy="198" r="220" fill="url(#sun)"/>
+<!-- skyline -->
+<g fill="#080d19" stroke="#14465a" stroke-width="1">
+ <path d="M640 331V215h44v-42h38v158zm93 0V192h31v-57h44v196zm84 0V225h38v-87h43v-32h19v175zm115 0V183h37v-65h46v213zm96 0V217h30v-87h44v201zm78 0V179h28v-40h29v192z"/>
+ <path d="M640 215h44m49-23h31m44 33h38m62-87h37m46 45h30m44-38h28"/>
 </g>
-<circle cx="1018" cy="211" r="44" fill="#0a101d" stroke="#00f5ff" stroke-width="2"/>
-<circle cx="1018" cy="211" r="27" fill="url(#core)"/>
-<g fill="#00f5ff"><circle cx="887" cy="275" r="4"/><circle cx="1088" cy="150" r="4"/></g><g fill="#ff3ea5"><circle cx="1101" cy="280" r="4"/><circle cx="1206" cy="80" r="3"/></g>
+<g opacity=".9">
+ <path d="M640 215h44v116h-44zm93-23h31v139h-31zm75 33h38v106h-38zm81-119h19v225h-19zm18 77h37v148h-37zm83 34h30v114h-30zm74-78h28v192h-28z" fill="url(#windows)" opacity=".8"/>
+</g>
+<!-- luminous skyline edges and signal trails -->
+<path d="M629 331h651M675 215v-42h38m50 19v-57h44m38 90 38-87v-32h19m18 45v-65h46m46 110v-87h44m30 87v-40h29" fill="none" stroke="url(#neon)" stroke-width="2" filter="url(#glow)" opacity=".9"/>
+<path d="M640 331h640" stroke="url(#horizon)" stroke-width="3"/>
+<!-- centered orbital intelligence glyph -->
+<g transform="translate(1050 213)" fill="none" stroke="url(#neon)">
+ <circle r="71" stroke-width="1.5" stroke-opacity=".75"/><circle r="50" stroke-width="1" stroke-dasharray="3 7"/>
+ <ellipse rx="104" ry="34" transform="rotate(-30)" stroke-width="2"/>
+ <ellipse rx="106" ry="35" transform="rotate(43)" stroke-width="1.5" opacity=".72"/>
+ <path d="M-122 0h35m174 0h35M0-122v35M0 87v35" stroke-width="2"/>
+ <circle r="22" fill="#101827" stroke="#00f5ff" stroke-width="2"/>
+ <path d="M-8 0h16M0-8v16" stroke="#00f5ff" stroke-width="2"/>
+</g>
+<g fill="#00f5ff" filter="url(#glow)"><circle cx="946" cy="152" r="3"/><circle cx="1155" cy="180" r="3"/></g>
+<g stroke="#00f5ff" stroke-opacity=".55" fill="none"><path d="M851 68h170l28 28h91m-326 52 45 45h66m187-161h80v40h75"/></g>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
- <text x="78" y="79" fill="#00f5ff" font-size="14" font-weight="700" letter-spacing="4">[ SYSTEM ONLINE ]  AI ENGINEER / BUILDER</text>
- <text x="70" y="183" fill="#ff3ea5" opacity=".82" font-size="73" font-weight="800" letter-spacing="-3">AKATUWORTHY</text>
- <text x="74" y="179" fill="#e9fcff" font-size="73" font-weight="800" letter-spacing="-3">AKATUWORTHY</text>
- <text x="78" y="233" fill="#9db8c8" font-size="19">Engineering useful intelligence for real life.</text>
- <path d="M78 274h190" stroke="url(#neon)" stroke-width="3"/>
- <text x="78" y="313" fill="#8a66ff" font-size="13" font-weight="700" letter-spacing="2">AI SYSTEMS  /  PRODUCT ENGINEERING  /  KNOWLEDGE</text>
- <text x="1195" y="385" fill="#00f5ff" font-size="12" text-anchor="end">NIGHT CITY // 01.0</text>
+ <rect x="62" y="54" width="274" height="28" rx="3" fill="#00f5ff" fill-opacity=".09" stroke="#00f5ff" stroke-opacity=".6"/>
+ <circle cx="78" cy="68" r="4" fill="#00f5ff"/><text x="91" y="72" fill="#9cfaff" font-size="12" font-weight="700" letter-spacing="2">INDEPENDENT BUILDER // ONLINE</text>
+ <text x="57" y="179" fill="#ff3ea5" opacity=".8" font-size="68" font-weight="900" letter-spacing="-4">AKATUWORTHY</text>
+ <text x="53" y="174" fill="#f0fbff" font-size="68" font-weight="900" letter-spacing="-4">AKATUWORTHY</text>
+ <text x="62" y="222" fill="#b6c7d8" font-family="system-ui,sans-serif" font-size="20">Engineering useful intelligence for real life.</text>
+ <path d="M62 252h218" stroke="url(#neon)" stroke-width="3"/>
+ <text x="62" y="286" fill="#00eaff" font-size="12" font-weight="700" letter-spacing="1.5">AI SYSTEMS</text><text x="149" y="286" fill="#566578" font-size="12"> // </text><text x="170" y="286" fill="#c49cff" font-size="12" font-weight="700" letter-spacing="1">PRODUCT ENGINEERING</text>
+ <text x="62" y="388" fill="#5d7790" font-size="11" letter-spacing="2">BUILD WITH INTENT  /  SHIP WITH CARE</text>
+ <text x="1210" y="428" text-anchor="end" fill="#00f5ff" font-size="11" letter-spacing="2">PROFILE // 001</text>
 </g>
-</svg>
+<path d="M40 40h20m-20 0v20M1240 40h-20m20 0v20M40 420h20m-20 0v-20m1200 20h-20m20 0v-20" stroke="#00f5ff" stroke-width="2"/>
+</g></svg>
