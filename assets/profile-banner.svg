@@ -1,31 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="t d">
-<title id="t">Akatuworthy — building thoughtful AI</title><desc id="d">A vivid violet and teal abstract field with a glowing network orb and bold developer identity.</desc>
+<title id="t">Akatuworthy — thoughtful software, grounded in people</title><desc id="d">Warm paper-colored editorial banner with ink typography, a terracotta sun, and connected knowledge nodes.</desc>
 <defs>
- <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b18"/><stop offset=".55" stop-color="#16112d"/><stop offset="1" stop-color="#071e29"/></linearGradient>
- <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#5eead4"/><stop offset=".48" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/></linearGradient>
- <radialGradient id="aura"><stop stop-color="#8b5cf6" stop-opacity=".46"/><stop offset=".45" stop-color="#6d28d9" stop-opacity=".16"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
- <radialGradient id="core" cx=".36" cy=".29"><stop stop-color="#f0abfc"/><stop offset=".28" stop-color="#a78bfa"/><stop offset=".7" stop-color="#5141a4"/><stop offset="1" stop-color="#1b1b3f"/></radialGradient>
- <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#c4b5fd" opacity=".23"/></pattern>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf4e8"/><stop offset="1" stop-color="#f1e4cf"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d97757"/><stop offset="1" stop-color="#a84431"/></linearGradient>
+ <pattern id="grain" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M0 10h7M22 28h5M33 4h3" stroke="#8c755d" stroke-opacity=".10"/></pattern>
 </defs>
-<rect width="1280" height="430" rx="30" fill="url(#base)"/>
-<path d="M0 0h1280v430H0z" fill="url(#dots)" opacity=".42"/>
-<circle cx="1000" cy="205" r="340" fill="url(#aura)"/>
-<g fill="none" stroke="url(#neon)">
- <circle cx="1000" cy="205" r="158" opacity=".48" stroke-width="1.5"/>
- <ellipse cx="1000" cy="205" rx="215" ry="91" transform="rotate(-32 1000 205)" opacity=".62"/>
- <ellipse cx="1000" cy="205" rx="218" ry="82" transform="rotate(48 1000 205)" opacity=".35"/>
- <path d="M780 370C854 290 913 321 984 263s129-19 176-103 65-91 120-118" opacity=".62" stroke-width="2"/>
+<rect width="1280" height="430" rx="28" fill="url(#paper)"/>
+<rect width="1280" height="430" rx="28" fill="url(#grain)"/>
+<path d="M0 17Q0 0 17 0h1246q17 0 17 17v396q0 17-17 17H17Q0 430 0 413z" fill="none" stroke="#cbb89d"/>
+<path d="M820 430V246a185 185 0 0 1 370 0v184" fill="#e4d1b6" opacity=".58"/>
+<path d="M860 430V256a145 145 0 0 1 290 0v174" fill="none" stroke="#bf6447" stroke-width="2" opacity=".74"/>
+<path d="M900 430V268a105 105 0 0 1 210 0v162" fill="none" stroke="#9e573f" stroke-width="1.5" opacity=".55"/>
+<circle cx="1005" cy="251" r="63" fill="url(#sun)"/>
+<circle cx="1005" cy="251" r="45" fill="none" stroke="#f8e8cf" stroke-opacity=".8"/>
+<path d="M1005 188v126M942 251h126M960 206l90 90M1050 206l-90 90" stroke="#f8e8cf" stroke-opacity=".36"/>
+<g stroke="#536b58" stroke-width="2" fill="none">
+ <path d="M901 250c-42-30-57-58-63-96m63 96c-28 4-49 15-72 37m72-37c23-18 41-43 53-72"/>
+ <path d="M838 154c-19-1-32-12-37-28 18-1 32 8 37 28zm-10 133c-19 7-35 2-46-11 16-7 32-3 46 11zm125-109c5-19 18-29 36-30-3 18-15 29-36 30z" fill="#75866c" fill-opacity=".25"/>
 </g>
-<circle cx="1000" cy="205" r="91" fill="url(#core)" opacity=".95"/>
-<circle cx="1000" cy="205" r="91" fill="none" stroke="#ddd6fe" stroke-opacity=".5"/>
-<circle cx="1000" cy="205" r="69" fill="none" stroke="#e9d5ff" stroke-opacity=".23"/>
-<g fill="#fff"><circle cx="866" cy="121" r="4"/><circle cx="1143" cy="129" r="5" fill="#5eead4"/><circle cx="894" cy="299" r="4" fill="#e879f9"/><circle cx="1102" cy="311" r="3"/></g>
-<g font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
- <rect x="78" y="68" width="12" height="12" rx="6" fill="#5eead4"/>
- <text x="104" y="80" fill="#c4b5fd" font-size="15" font-weight="700" letter-spacing="4">INDEPENDENT AI ENGINEER</text>
- <text x="72" y="190" fill="#fff" font-size="76" font-weight="760" letter-spacing="-4">Akatuworthy</text>
- <text x="78" y="239" fill="#dbeafe" font-size="22">I turn human problems into useful software.</text>
- <path d="M78 282h178" stroke="url(#neon)" stroke-width="4" stroke-linecap="round"/>
- <text x="78" y="330" fill="#a5b4fc" font-size="14" font-weight="600" letter-spacing="2">AI SYSTEMS  /  PRODUCT ENGINEERING  /  KNOWLEDGE</text>
+<g fill="#bd6546"><circle cx="838" cy="154" r="4"/><circle cx="828" cy="287" r="4"/><circle cx="953" cy="178" r="4"/></g>
+<g font-family="Georgia, 'Times New Roman', serif">
+ <text x="76" y="82" fill="#a64e37" font-family="system-ui,sans-serif" font-size="14" font-weight="700" letter-spacing="4">INDEPENDENT AI ENGINEER</text>
+ <text x="70" y="184" fill="#252a25" font-size="72" font-weight="700" letter-spacing="-2">Akatuworthy</text>
+ <text x="77" y="236" fill="#4e554c" font-size="22">Thoughtful software, grounded in people.</text>
 </g>
+<path d="M78 278h145" stroke="#bf6447" stroke-width="4"/>
+<text x="78" y="321" fill="#69715f" font-family="system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="2">AI SYSTEMS  ·  PRODUCT ENGINEERING  ·  KNOWLEDGE</text>
+<text x="1165" y="386" fill="#9a7e5e" font-family="Georgia,serif" font-size="14" text-anchor="end">FIELD NOTES / 01</text>
 </svg>
